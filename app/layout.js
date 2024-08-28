@@ -1,3 +1,5 @@
+import store from "../store/store";
+import { Provider } from "react-redux";
 import Header from "../components/shared/header";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -17,8 +19,10 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="../public/logo.png" />
       </head>
       <body>
-        <Header />
-        {children}
+        <Provider store={store}>
+          <Header />
+          {children}
+        </Provider>
       </body>
     </html>
   );

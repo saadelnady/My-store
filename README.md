@@ -1,4 +1,4 @@
-<img src="My-store-with-next.png" alt="Search TextInput" width="100%" height="" />
+<img src="My-store.png" alt="Search TextInput" width="100%" height="" />
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -12,6 +12,7 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+
 # or
 bun dev
 ```

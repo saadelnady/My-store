@@ -148,6 +148,7 @@ function App({ Component, pageProps }) {
 
 App.getInitialProps = wrapper.getInitialAppProps((store) => async (ctx) => {
   const cookies = nookies.get(ctx.ctx);
+
   // const token = cookies.token;
 
   // if (token) {

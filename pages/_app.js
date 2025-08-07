@@ -141,6 +141,7 @@ function App({ Component, pageProps }) {
         </IntlProvider>
       </SSRProvider>
       {Progress && <TopBarProgress />}
+
       <Toaster position="top-right" reverseOrder={false} />
     </>
   );
